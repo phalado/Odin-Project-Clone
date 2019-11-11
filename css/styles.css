@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Norse";
+  src: url("../fonts/Norse.otf"); }
+@font-face {
+  font-family: "Norse";
+  src: url("../fonts/Norsebold.otf");
+  font-weight: bold; }
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; }
+
+.logo {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem; }
+
+.logo a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo span {
+  font-family: "Norse";
+  font-weight: bold;
+  font-size: 1.6em;
+  padding-left: 0.5em;
+  color: #cc9543; }
+
+.menu {
+  display: flex; }
+
+.menu ul {
+  display: none; }
+
+.menu li {
+  display: inline; }
+
+.menu li a {
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1em;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem; }
+
+.menu-toggle {
+  color: #6bbfc3;
+  font-size: 30px;
+  padding-right: 16px; }
+
+@media (min-width: 720px) {
+  .menu ul {
+    display: block; }
+
+  .menu-toggle {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
