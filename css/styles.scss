@@ -1,5 +1,8 @@
 $gold: #cc9543;
 $blue: #6bbfc3;
+$light-blue: #6abfc3;
+$grey: rgb(74, 74, 74);
+$grey-a: rgba(74, 74, 74, 0.7);
 
 @font-face {
   font-family: "Norse";
@@ -14,6 +17,14 @@ $blue: #6bbfc3;
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: $gold;
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
 }
 
 .navbar {
@@ -54,8 +65,8 @@ body {
 }
 
 .menu li a {
-  color: rgb(74, 74, 74);
-  color: rgba(74,74,74,0.7);
+  color: $grey;
+  color: $grey-a;
   font-size: 1em;
   font-weight: bold;
   padding-right: 0.5rem;
@@ -67,6 +78,31 @@ body {
   font-size: 30px;
   padding-right: 16px;
 }
+
+.header {
+  padding-bottom: 3.75rem;
+  text-align: center;
+}
+
+.secondary {
+  padding-bottom: 4.375rem;
+  color: $grey;
+  color: $grey-a;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88;
+}
+
+.curr-button {
+  background-color: $light-blue;
+  color: white;
+  border-radius: 0.2em;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
 
 @media (min-width: 720px) {
   .menu ul {
