@@ -8,7 +8,7 @@ The assignment can be found in the Odin Project's HTML and CSS course that can b
 
 ## Technologies used
 
-In this project we used HTML and CSS3 as programing languages, the [SCSS](https://sass-lang.com/documentation/syntax) syntax for the preprocessor [Sass](https://sass-lang.com/) , [Font Awesome v5.11.2](https://fontawesome.com/changelog/latest) and [Bootstrap 4](https://getbootstrap.com.br/) as the base of our framework.
+In this project we used HTML and CSS, the [SCSS](https://sass-lang.com/documentation/syntax) syntax for the preprocessor [Sass](https://sass-lang.com/) , [Font Awesome v5.11.2](https://fontawesome.com/changelog/latest) and our own grid-based framework.
 
 ## Our project
 
