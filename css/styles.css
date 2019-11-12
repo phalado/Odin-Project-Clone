@@ -282,6 +282,7 @@ h4 {
   text-decoration: none;
 }
 
+/* Medium screen media query */
 @media (min-width: 720px) {
   .menu ul {
     display: block;
@@ -319,6 +320,7 @@ h4 {
     align-items: center;
   }
 }
+/* Large screen media query */
 @media (min-width: 1024px) {
   .how-it-works-tiles img {
     height: 165px;
@@ -333,10 +335,12 @@ h4 {
     min-height: 277px;
   }
 }
+/* Norse font (regular) */
 @font-face {
   font-family: "Norse";
   src: url("../fonts/Norse.eot?#iefix") format("embedded-opentype"), url("../fonts/Norse.otf") format("opentype");
 }
+/* Norse font (bold) */
 @font-face {
   font-family: "Norse";
   src: url("../fonts/Norsebold.eot?#iefix") format("embedded-opentype"), url("../fonts/Norsebold.otf") format("opentype");
