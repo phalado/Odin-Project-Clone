@@ -157,7 +157,39 @@ h4 {
   padding-top: 70px; }
 
 .stories {
-  padding-top: 100px; }
+  padding-top: 100px;
+  display: flex; }
+
+.stories-div {
+  max-width: 600px; }
+
+.img-container {
+  float: left;
+  height: 100%;
+  flex-basis: 100px; }
+
+.ss-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.text-container {
+  text-align: left; }
+
+.ss-link {
+  color: #cc9543;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88;
+  text-align: left;
+  font-weight: 400; }
+
+.ss-text {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  color: rgba(74, 74, 74, 0.7);
+  text-align: left;
+  line-height: 1.88; }
 
 @media (min-width: 720px) {
   .menu ul {
