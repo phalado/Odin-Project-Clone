@@ -3,6 +3,7 @@ $blue: #6bbfc3;
 $light-blue: #6abfc3;
 $grey: rgb(74, 74, 74);
 $grey-a: rgba(74, 74, 74, 0.7);
+$black: #4a4a4a;
 
 @font-face {
   font-family: "Norse";
@@ -25,6 +26,13 @@ h1 {
   font-weight: 300;
   letter-spacing: 0.4px;
   line-height: 1.2;
+}
+
+h2 {
+  color: $black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
 }
 
 .navbar {
@@ -79,6 +87,10 @@ h1 {
   padding-right: 16px;
 }
 
+.hero-gradient {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
 .header {
   padding-bottom: 3.75rem;
   text-align: center;
@@ -103,6 +115,37 @@ h1 {
   text-align: center;
 }
 
+.how-it-works {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.how-it-works h2 {
+  margin-bottom: 36px;
+}
+
+.how-it-works p {
+  color: $grey;
+  color: $grey-a;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88
+}
+
+.how-it-works-tiles img {
+  height: 80px;
+}
+
+.how-it-works-tiles h4 {
+  margin: 50px 0 20px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+
+.how-it-works-tiles p {
+  padding: 0 32px 0 32px;
+}
 
 @media (min-width: 720px) {
   .menu ul {
@@ -111,5 +154,15 @@ h1 {
 
   .menu-toggle {
     display: none;
+  }
+
+  .how-it-works-tiles img {
+    height: 120px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .how-it-works-tiles img {
+    height: 165px;
   }
 }
