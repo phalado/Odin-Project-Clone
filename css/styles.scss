@@ -8,14 +8,16 @@ $white-ish: #f3f3f3;
 
 @font-face {
   font-family: "Norse";
-  src: url('../fonts/Norse.eot?#iefix') format('embedded-opentype'),
-       url("../fonts/Norse.otf") format("opentype");
+  src:
+    url('../fonts/Norse.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/Norse.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Norse";
-  src: url('../fonts/Norsebold.eot?#iefix') format('embedded-opentype'),
-       url("../fonts/Norsebold.otf") format("opentype");
+  src:
+    url('../fonts/Norsebold.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/Norsebold.otf") format("opentype");
   font-weight: bold;
 }
 
@@ -68,7 +70,7 @@ h4 {
 }
 
 .logo span {
-  font-family: "Norse";
+  font-family: "Norse", Helvetica, Arial;
   font-weight: bold;
   font-size: 1.2em;
   padding-left: 0.5em;
@@ -78,6 +80,7 @@ h4 {
 .menu {
   display: flex;
 }
+
 .menu ul {
   display: none;
 }
@@ -136,23 +139,19 @@ h4 {
   margin-bottom: 70px;
 }
 
-.how-it-works h2 {
-  margin-bottom: 36px;
-}
-
 .how-it-works p {
   color: $grey;
   color: $grey-a;
   font-size: 1.125rem;
   letter-spacing: 0.2px;
-  line-height: 1.88
+  line-height: 1.88;
 }
 
 .how-it-works-tiles img {
   height: 80px;
 }
 
-.how-it-works-tiles h4 {
+.how-it-works-tiles .tile-title {
   margin: 50px 0 20px;
 }
 
@@ -177,7 +176,7 @@ h4 {
 }
 
 .lets-learn .row {
-  justify-content: center
+  justify-content: center;
 }
 
 .lets-learn img {
@@ -266,6 +265,7 @@ h4 {
 .cta {
   padding: 5em 2.5em;
 }
+
 .cta p {
   font-size: 1.75rem;
   color: $grey;
