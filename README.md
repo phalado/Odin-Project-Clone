@@ -18,7 +18,9 @@ This project was divided in two parts:
 
 ## Usage
 
-To use our framework just paste <link rel="stylesheet" type="text/css" href="https://raw.githack.com/elshaka/Design-Your-Own-Grid-based-Framework/feature-framework/framework.css"> in the head of your index's html.
+To use our framework just paste the link below in the head of your index's html.
+
+`<link rel="stylesheet" type="text/css" href="https://raw.githack.com/elshaka/Design-Your-Own-Grid-based-Framework/feature-framework/framework.css">` 
 
 ## Contributors
 
