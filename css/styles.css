@@ -157,11 +157,11 @@ h4 {
   padding-top: 70px; }
 
 .stories {
-  padding-top: 100px;
-  display: flex; }
+  padding-top: 100px; }
 
 .stories-div {
-  max-width: 600px; }
+  max-width: 600px;
+  display: flex; }
 
 .img-container {
   float: left;
