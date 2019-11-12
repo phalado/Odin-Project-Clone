@@ -8,12 +8,14 @@ $white-ish: #f3f3f3;
 
 @font-face {
   font-family: "Norse";
-  src: url("../fonts/Norse.otf");
+  src: url('../fonts/Norse.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/Norse.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Norse";
-  src: url("../fonts/Norsebold.otf");
+  src: url('../fonts/Norsebold.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/Norsebold.otf") format("opentype");
   font-weight: bold;
 }
 
