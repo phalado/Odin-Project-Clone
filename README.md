@@ -14,7 +14,7 @@ In this project we used HTML and CSS, the [SCSS](https://sass-lang.com/documenta
 
 This project was divided in two parts:
 * The first one is the framework, that can be found in https://github.com/elshaka/Design-Your-Own-Grid-based-Framework/ (**For Microverse's TSE: its pull request is [here](https://github.com/elshaka/Design-Your-Own-Grid-based-Framework/pull/1)**).
-* The second is the cloned website, found in https://github.com/phalado/Odin-Project-Clone with a live version in [here](https://raw.githack.com/phalado/Odin-Project-Clone/feature-website/index.html)
+* The second is the cloned website, found in https://github.com/phalado/Odin-Project-Clone with a live version in [here](https://raw.githack.com/phalado/Odin-Project-Clone/master/index.html)
 
 ## Usage
 
