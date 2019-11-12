@@ -4,6 +4,7 @@ $light-blue: #6abfc3;
 $grey: rgb(74, 74, 74);
 $grey-a: rgba(74, 74, 74, 0.7);
 $black: #4a4a4a;
+$white-ish: #f3f3f3;
 
 @font-face {
   font-family: "Norse";
@@ -33,6 +34,13 @@ h2 {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.3px;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: $black;
 }
 
 .navbar {
@@ -118,6 +126,7 @@ h2 {
 .how-it-works {
   text-align: center;
   padding-top: 60px;
+  margin-bottom: 70px;
 }
 
 .how-it-works h2 {
@@ -138,13 +147,59 @@ h2 {
 
 .how-it-works-tiles h4 {
   margin: 50px 0 20px;
-  font-size: 1.125rem;
-  font-weight: bold;
-  letter-spacing: 0.2px;
 }
 
 .how-it-works-tiles p {
   padding: 0 32px 0 32px;
+}
+
+.lets-learn {
+  background: $white-ish;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.learn-heading {
+  margin-bottom: 60px;
+}
+
+.badges {
+  background: white;
+  height: 150px;
+  width: 270px;
+}
+
+.lets-learn img {
+  height: 80px;
+  width: 80px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.get-start-button {
+  background-color: $gold;
+  color: white;
+  border-radius: 0.2em;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ss {
+  text-align: center;
+}
+
+.ss-head {
+  padding-top: 70px;
+}
+
+.stories {
+  padding-top: 100px;
 }
 
 @media (min-width: 720px) {
@@ -158,6 +213,16 @@ h2 {
 
   .how-it-works-tiles img {
     height: 120px;
+  }
+
+  .badges {
+    height: 256px;
+    width: 254px;
+  }
+
+  .lets-learn img {
+    height: 160px;
+    width: 160px;
   }
 }
 
