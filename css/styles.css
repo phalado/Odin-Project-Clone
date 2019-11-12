@@ -215,6 +215,32 @@ h4 {
   color: #4a4a4a;
   color: rgba(74, 74, 74, 0.7); }
 
+footer .row {
+  align-items: center; }
+
+footer .logo, footer .links {
+  display: none; }
+
+footer .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+footer .social a {
+  font-size: 24px;
+  color: #cc9543; }
+
+footer .links-container {
+  display: flex;
+  flex-direction: column; }
+
+footer .links a {
+  flex-basis: 30px;
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  text-decoration: none; }
+
 @media (min-width: 720px) {
   .menu ul {
     display: block; }
@@ -237,9 +263,21 @@ h4 {
     display: block; }
 
   .more-stories {
-    display: flex; } }
+    display: flex; }
+
+  footer .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; } }
 @media (min-width: 1024px) {
   .how-it-works-tiles img {
-    height: 165px; } }
+    height: 165px; }
+
+  footer .logo {
+    display: flex;
+    justify-content: center; }
+
+  footer .row {
+    min-height: 277px; } }
 
 /*# sourceMappingURL=styles.css.map */

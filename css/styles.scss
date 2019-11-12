@@ -269,6 +269,38 @@ h4 {
   color: $grey-a;
 }
 
+footer .row {
+  align-items: center;
+}
+
+footer .logo, footer .links {
+  display: none;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social a {
+  font-size: 24px;
+  color: $gold;
+}
+
+footer .links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links a {
+  flex-basis: 30px;
+  color: $grey;
+  color: $grey-a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 @media (min-width: 720px) {
   .menu ul {
     display: block;
@@ -299,10 +331,25 @@ h4 {
   .more-stories {
     display: flex;
   }
+
+  footer .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1024px) {
   .how-it-works-tiles img {
     height: 165px;
+  }
+
+  footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .row {
+    min-height: 277px;
   }
 }
