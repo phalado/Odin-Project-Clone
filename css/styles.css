@@ -75,7 +75,7 @@ h4 {
   display: inline;
 }
 
-.menu li a {
+.menu a {
   color: #4a4a4a;
   color: rgba(74, 74, 74, 0.7);
   font-size: 1em;
@@ -236,6 +236,7 @@ h4 {
 .ss-text {
   font-size: 1.125rem;
   letter-spacing: 0.2px;
+  color: #4a4a4a;
   color: rgba(74, 74, 74, 0.7);
   text-align: left;
   line-height: 1.88;
@@ -261,31 +262,32 @@ h4 {
   color: rgba(74, 74, 74, 0.7);
 }
 
-footer .row {
+.footer .row {
   align-items: center;
 }
 
-footer .logo, footer .links {
+.footer .logo,
+.footer .links {
   display: none;
 }
 
-footer .social {
+.footer .social {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-footer .social a {
+.footer .social a {
   font-size: 24px;
   color: #cc9543;
 }
 
-footer .links-container {
+.footer .links-container {
   display: flex;
   flex-direction: column;
 }
 
-footer .links a {
+.footer .links a {
   flex-basis: 30px;
   color: #4a4a4a;
   color: rgba(74, 74, 74, 0.7);
@@ -324,7 +326,7 @@ footer .links a {
     display: flex;
   }
 
-  footer .links {
+  .footer .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -335,12 +337,12 @@ footer .links a {
     height: 165px;
   }
 
-  footer .logo {
+  .footer .logo {
     display: flex;
     justify-content: center;
   }
 
-  footer .row {
+  .footer .row {
     min-height: 277px;
   }
 }
