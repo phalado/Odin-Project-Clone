@@ -6,21 +6,6 @@ $grey-a: rgba(74, 74, 74, 0.7);
 $black: #4a4a4a;
 $white-ish: #f3f3f3;
 
-@font-face {
-  font-family: "Norse";
-  src:
-    url('../fonts/Norse.eot?#iefix') format('embedded-opentype'),
-    url("../fonts/Norse.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Norse";
-  src:
-    url('../fonts/Norsebold.eot?#iefix') format('embedded-opentype'),
-    url("../fonts/Norsebold.otf") format("opentype");
-  font-weight: bold;
-}
-
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -356,4 +341,19 @@ h4 {
   .footer .row {
     min-height: 277px;
   }
+}
+
+@font-face {
+  font-family: "Norse";
+  src:
+    url('../fonts/Norse.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/Norse.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Norse";
+  src:
+    url('../fonts/Norsebold.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/Norsebold.otf") format("opentype");
+  font-weight: bold;
 }

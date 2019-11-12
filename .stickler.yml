@@ -2,7 +2,7 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
   csslint:
-    ignore: 'box-model,box-sizing,order-alphabetical,important'
+    ignore: 'box-model,box-sizing,order-alphabetical,at-rule-empty-line-before'
 files:
     ignore:
         - 'css/reset.css'
