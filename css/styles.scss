@@ -61,10 +61,14 @@ h4 {
   align-items: center;
 }
 
+.logo img {
+  height: 60px;
+}
+
 .logo span {
   font-family: "Norse";
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.2em;
   padding-left: 0.5em;
   color: $gold;
 }
@@ -92,10 +96,10 @@ h4 {
 .menu-toggle {
   color: $blue;
   font-size: 30px;
-  padding-right: 16px;
+  padding-right: 6px;
 }
 
-.hero-gradient {
+.gradient {
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
 
@@ -114,6 +118,7 @@ h4 {
 }
 
 .curr-button {
+  display: inline-block;
   background-color: $light-blue;
   color: white;
   border-radius: 0.2em;
@@ -163,10 +168,14 @@ h4 {
   margin-bottom: 60px;
 }
 
-.badges {
+.badge {
   background: white;
-  height: 150px;
-  width: 270px;
+  max-width: 270px;
+  padding: 23px 46px 25px;
+}
+
+.lets-learn .row {
+  justify-content: center
 }
 
 .lets-learn img {
@@ -199,7 +208,7 @@ h4 {
 }
 
 .stories {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .stories-div {
@@ -208,7 +217,7 @@ h4 {
 }
 
 .img-container {
-  float: left;
+  display: none;
   height: 100%;
   flex-basis: 100px;
 }
@@ -224,6 +233,7 @@ h4 {
 }
 
 .ss-link {
+  display: block;
   color: $gold;
   font-size: 1.125rem;
   letter-spacing: 0.2px;
@@ -238,6 +248,25 @@ h4 {
   color: $grey-a;
   text-align: left;
   line-height: 1.88;
+}
+
+.read-more a {
+  color: $grey;
+  color: $grey-a;
+  text-decoration: underline;
+}
+
+.more-stories {
+  display: none;
+}
+
+.cta {
+  padding: 5em 2.5em;
+}
+.cta p {
+  font-size: 1.75rem;
+  color: $grey;
+  color: $grey-a;
 }
 
 @media (min-width: 720px) {
@@ -261,6 +290,14 @@ h4 {
   .lets-learn img {
     height: 160px;
     width: 160px;
+  }
+
+  .img-container {
+    display: block;
+  }
+
+  .more-stories {
+    display: flex;
   }
 }
 

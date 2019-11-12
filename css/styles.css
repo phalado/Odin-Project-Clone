@@ -42,10 +42,13 @@ h4 {
   justify-content: space-between;
   align-items: center; }
 
+.logo img {
+  height: 60px; }
+
 .logo span {
   font-family: "Norse";
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.2em;
   padding-left: 0.5em;
   color: #cc9543; }
 
@@ -69,9 +72,9 @@ h4 {
 .menu-toggle {
   color: #6bbfc3;
   font-size: 30px;
-  padding-right: 16px; }
+  padding-right: 6px; }
 
-.hero-gradient {
+.gradient {
   background-image: linear-gradient(to bottom, #fff, #eee); }
 
 .header {
@@ -87,6 +90,7 @@ h4 {
   line-height: 1.88; }
 
 .curr-button {
+  display: inline-block;
   background-color: #6abfc3;
   color: white;
   border-radius: 0.2em;
@@ -127,10 +131,13 @@ h4 {
 .learn-heading {
   margin-bottom: 60px; }
 
-.badges {
+.badge {
   background: white;
-  height: 150px;
-  width: 270px; }
+  max-width: 270px;
+  padding: 23px 46px 25px; }
+
+.lets-learn .row {
+  justify-content: center; }
 
 .lets-learn img {
   height: 80px;
@@ -157,14 +164,14 @@ h4 {
   padding-top: 70px; }
 
 .stories {
-  padding-top: 100px; }
+  padding-top: 50px; }
 
 .stories-div {
   max-width: 600px;
   display: flex; }
 
 .img-container {
-  float: left;
+  display: none;
   height: 100%;
   flex-basis: 100px; }
 
@@ -177,6 +184,7 @@ h4 {
   text-align: left; }
 
 .ss-link {
+  display: block;
   color: #cc9543;
   font-size: 1.125rem;
   letter-spacing: 0.2px;
@@ -190,6 +198,22 @@ h4 {
   color: rgba(74, 74, 74, 0.7);
   text-align: left;
   line-height: 1.88; }
+
+.read-more a {
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, 0.7);
+  text-decoration: underline; }
+
+.more-stories {
+  display: none; }
+
+.cta {
+  padding: 5em 2.5em; }
+
+.cta p {
+  font-size: 1.75rem;
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, 0.7); }
 
 @media (min-width: 720px) {
   .menu ul {
@@ -207,7 +231,13 @@ h4 {
 
   .lets-learn img {
     height: 160px;
-    width: 160px; } }
+    width: 160px; }
+
+  .img-container {
+    display: block; }
+
+  .more-stories {
+    display: flex; } }
 @media (min-width: 1024px) {
   .how-it-works-tiles img {
     height: 165px; } }
